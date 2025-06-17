@@ -1,0 +1,66 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Jennie Album</title>
+  <link rel="stylesheet" href="./jenpage2.css">
+</head>
+<body>
+  <nav>
+    <div class="menu">
+
+      <div class="logo">
+        <a href="./jenpage1.html">J</a>
+      </div>
+
+      <div class="bar" id="menu-links">
+      <ul>
+        <li><a href="./jenpage1.html" >Home</a></li>
+        <li><a href="./jenpage2.html" id="activepage">Songs</a></li>
+        <li><a href="./jenpage3.html">Schedule</a></li>
+        <li><a href="./jenpage4.html">Get in Touch</a></li>
+      </ul>
+      <img src="./rec.png" id="menu-icon" >
+  
+    </div>
+  </nav>
+
+ 
+  <!-- end nav bar -->
+  <h1>SONGS</h1>
+  <div class="container">
+
+      <div class="jen1">
+          <a href="https://www.youtube.com/watch?v=ZXPYwv7JUpk"><img src="./jruby.jpg" alt=""></a>
+          <h2>“Ruby”</h2>
+          <p>Ruby is the debut solo album by BLACKPINK member JENNIE. </p>
+      </div>
+
+    <div class="jen2">
+      <a href="https://www.youtube.com/watch?v=23urWKmHS6o&pp=ygUPaGFuZ292ZXIgamVubmll"><img src="./lovehangover2.jpeg" alt=""></a>
+      <h2>“Love Hangover”</h2>
+      <p>This song captures the intoxicating chaos of a love that’s too hard to quit. Released as the second single from JENNIE’s first solo album Ruby, “Love Hangover” features American artist Dominic Fike.</p>
+    </div>
+
+    <div class="jen3">
+      <a href="https://www.youtube.com/watch?v=JSFG-IE8n_c&pp=ygULbGlrZSBqZW5uaWU%3D">  <img src="./like jennie 2.jpeg" alt=""></a>
+      <h2>“Like Jennie”</h2>
+      <p>The song features a chant-like repetitive chorus, driving home the message that despite the negativity, she remains untouchable and irreplaceable by humans or technology.</p>
+    </div>
+
+</div>
+
+<script>
+  let menuList = document.querySelector(".bar ul");
+  let menuIcon = document.getElementById("menu-icon");
+
+  function toggleMenu (){
+    menuList.classList.toggle("show-menu");
+  }
+  menuIcon.addEventListener("click",toggleMenu);
+</script>
+
+
+</body>
+</html>

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Event Websites</title>
+  <link rel="stylesheet" href="./jenpage1.css">
+
+</head>
+<body>
+  
+<nav>
+    <div class="menu">
+
+      <div class="logo">
+        <a href="./jenpage1.html">J</a>
+      </div>
+
+      <div class="bar" id="menu-links">
+      <ul>
+        <li><a href="./jenpage1.html" id="activepage">Home</a></li>
+        <li><a href="./jenpage2.html">Songs</a></li>
+        <li><a href="./jenpage3.html">Schedule</a></li>
+        <li><a href="./jenpage4.html">Get in Touch</a></li>
+      </ul>
+      <img src="./rec.png" id="menu-icon" >
+    </div>
+  </nav>
+  
+
+   
+
+
+
+
+ <!-- end nav bar -->
+
+<div class="middle">
+  <h1 class="event" style="margin-top: 40px;
+  margin-left: 50px;
+  margin-bottom: 20px;">Jennie's</h1>
+
+  <h1 class="web" style="margin-top: 0;
+ ">Super Event</h1>
+</div>
+
+ <!-- end middle line -->
+
+<div class="last">
+  <button>BOOK YOUR SPOT</button>
+</div>
+
+<script>
+  let menuList = document.querySelector(".bar ul");
+  let menuIcon = document.getElementById("menu-icon");
+
+  function toggleMenu (){
+    menuList.classList.toggle("show-menu");
+  }
+  menuIcon.addEventListener("click",toggleMenu);
+</script>
+
+ 
+</body>
+</html>

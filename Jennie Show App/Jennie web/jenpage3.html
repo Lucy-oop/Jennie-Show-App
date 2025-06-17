@@ -1,0 +1,165 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Schedule</title>
+  <link rel="stylesheet" href="./jenpage3.css">
+</head>
+
+<body>
+  <nav>
+    <div class="menu">
+
+      <div class="logo">
+        <a href="./jenpage1.html">J</a>
+      </div>
+
+      <div class="bar" id="menu-links">
+      <ul>
+        <li><a href="./jenpage1.html" >Home</a></li>
+        <li><a href="./jenpage2.html">Songs</a></li>
+        <li><a href="./jenpage3.html" id="activepage" >Schedule</a></li>
+        <li><a href="./jenpage4.html">Get in Touch</a></li>
+      </ul>
+      <img src="./rec.png" id="menu-icon" >
+    </div>
+  </nav>
+  
+
+
+  <!-- end nav bar -->
+
+  <div class="container" >
+        <img src="./Jennie3.jpeg" alt="">
+        <h1>JENNIE</h1>
+      
+        <!--end head-->
+      
+        <table class="center">
+      
+        <tr>
+          <th class="first">
+                GOYANG <br>
+                <span>
+              GOYANG STADIUM
+              </span>
+          </th>
+
+          <th class="second">2025.07.05.SAT - 06.SUN</th>
+        </tr>
+
+        <tr>
+            <th class="first">
+            LOS ANGELES <br>
+            <span>
+            SOFI STADIUM
+            </span>
+            </th>
+            <th class="second"> 2025.07.12.SAT</th>
+        </tr>
+      
+        <tr>
+            <th class="first">
+              CHICAGO <br>
+              <span>
+              SOLDIER FIELD
+              </span>
+            </th>
+          
+            <th class="second">2025.07.18.FRI </th>
+        </tr>
+
+        <tr>
+          <th class="first">
+                TORONTO <br>
+                <span>
+              ROGERS STADIUM
+              </span>
+          </th>
+          <th class="second">2025.07.22.TUE</th>
+        </tr>
+
+        <tr>
+          <th class="first">
+              NEW YORK <br>
+              <span>
+              CITI FIELD
+              </span>
+          </th>
+          <th class="second">2025.07.26.SAT</th>
+        </tr>
+
+        <tr>
+          <th class="first">
+            PARIS <br>
+            <span>
+            STADE DE FRANCE
+            </span>
+          </th>
+          <th class="second">2025.08.02.SAT </th>
+        </tr>
+
+        <tr>
+          <th class="first">
+            MILAN <br>
+            <span>
+            IPPO SNAI MAURA
+            </span>
+          </th>
+          <th class="second">2025.08.06.WED</th>
+        </tr>
+
+        <tr>
+          <th class="first">
+            BARCELONA <br>
+            <span>
+            ESTADI OLIMPIC
+            </span>
+          </th>
+          <th class="second">2025.08.09.SAT </th>
+        </tr>
+
+        <tr>
+            <th class="first">
+                LONDON <br>
+                <span>
+                WEMBLEY STADIUM
+                </span>
+            </th>
+            <th class="second">2025.08.15.FRI</th>
+        </tr>
+
+        <tr>
+          <th class="first">
+              TOKYO <br>
+              <span>
+              TOKYO DOME
+              </span>
+          </th>
+          <th class="second">2026.01.16.FRI - 18.SUN </th>
+        </tr>
+
+
+
+      </table>
+
+      <!--end table-->
+
+      <footer>
+       <p class="footp">© 2025 YG ENTERTRAINMENT INC.</p> 
+      </footer>
+
+      <script>
+        let menuList = document.querySelector(".bar ul");
+        let menuIcon = document.getElementById("menu-icon");
+      
+        function toggleMenu (){
+          menuList.classList.toggle("show-menu");
+        }
+        menuIcon.addEventListener("click",toggleMenu);
+      </script>
+
+</div>
+</body>
+</html>

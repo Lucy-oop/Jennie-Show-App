@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Preview</title>
+  <link rel="stylesheet" href="./jenpage4.css">
+</head>
+<body>
+  <nav>
+    <div class="menu">
+
+      <div class="logo">
+        <a href="./jenpage1.html">J</a>
+      </div>
+
+      <div class="bar" id="menu-links">
+      <ul>
+        <li><a href="./jenpage1.html" id="activepage">Home</a></li>
+        <li><a href="./jenpage2.html">Songs</a></li>
+        <li><a href="./jenpage3.html">Schedule</a></li>
+        <li><a href="./jenpage4.html">Get in Touch</a></li>
+      </ul>
+      <img src="./rec.png" id="menu-icon" >
+    </div>
+  </nav>
+  
+
+  <div class="container">
+  <div class="image">
+    <img src="./Jennie3.jpeg" alt="">
+  </div>
+
+  <div class="info">
+    <h1>SAVE</h1>
+    
+    <h1>YOUR</h1>
+    
+    <h1>SPOT</h1>
+ 
+    
+    <p>“like JENNIE” is the fourth single from BLACKPINK member JENNIE’s solo debut album Ruby. The song celebrates JENNIE’s individuality, highlighting her distinct style, confidence, and allure.</p>
+    
+     <button>BOOK NOW</button>
+   
+    
+
+  </div>
+</div>
+<script>
+  let menuList = document.querySelector(".bar ul");
+  let menuIcon = document.getElementById("menu-icon");
+
+  function toggleMenu (){
+    menuList.classList.toggle("show-menu");
+  }
+  menuIcon.addEventListener("click",toggleMenu);
+</script>
+
+</body>
+</html>

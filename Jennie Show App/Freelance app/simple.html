@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Simple</title>
+  <link rel="stylesheet" href="simple.css">
+</head>
+<body>
+  <nav>
+    <div class="logo">
+    <img src="./right.png">
+    <h2>Zennifer</h2>
+  </div>
+    <ul id="menu-links">
+      <li>Home</li>
+      <li>Service</li>
+      <li>Projects</li>
+      <li>About us</li>
+    </ul>
+    <button class="nav-btn"> Get started <img src="./up-right-arrow.png" alt=""></button>
+    <img src="./menu-symbol-of-three-parallel-lines.svg" class="menu-icon" onclick="toogleMenu()">
+  </nav>
+  <div class="header">
+    <div class="header-content">
+    <h1> <span>FREE</span> <br><span>LANCER</span></h1>
+    <div class="btn-container">
+    <button class="btn-dark">Request call back <img src="./call.png" alt=""></button>
+    <button class="btn-light">know more <img src="./right-up.png" alt=""></button>
+  </div>
+  <p>Passinate Ul/UX designers with 10+ years of <br>experience</p>
+
+</div>
+  <img src="./—Pngtree—hand drawn cute teacher_4398173.png" alt="" class="user-img">
+  </div>
+
+  
+<script>
+  let navbar = document.querySelector('nav');
+  let menuLinks = document.getElementById("menu-links");
+
+  function toogleMenu(){
+    menuLinks.classList.toggle('show-menu');
+
+  }
+
+  window.onscroll = function (){
+    if (window.scrollY > 0) {
+       navbar.style.background = '#eefff9';
+    } else {
+      navbar.style.background ='transparent';
+    }
+  }
+
+   
+</script>
+</body>
+</html>
